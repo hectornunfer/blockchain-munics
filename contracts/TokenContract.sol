@@ -43,13 +43,13 @@ contract TokenContract {
         users[_receiver].tokens += _amount;
     }
 
-    function buyTokens(address _receiver, uint256 _amount) public payable {
+    function buyTokens(uint256 _amount) public payable {
         uint256 totalCost = _amount * tokenPrice;
         require(msg.value >= totalCost, "Cantidad de Ether insuficiente para comprar tokens");
         require(users[owner].tokens >= _amount, "No hay suficientes tokens disponibles para la compra");
 
-        giveToken(_receiver, _amount);
+        giveToken(msg.sender, _amount);
 
-        emit TokensPurchased(_receiver, _amount);
+        emit TokensPurchased(msg.sender, _amount);
     }
 }

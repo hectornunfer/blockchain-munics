@@ -32,11 +32,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_receiver",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
 						"name": "_amount",
 						"type": "uint256"
@@ -189,11 +184,11 @@
 	},
 	"sources": {
 		"contracts/TokenContract.sol": {
-			"keccak256": "0xeaf6e4caa75d55608f93d4fbfb0bee20934faa69c26245d94a22819899de78bc",
+			"keccak256": "0x7daa9da099adf9749b52350903c836cfc43e438a8ce5c3d1f838ac606cf89cdc",
 			"license": "Unlicensed",
 			"urls": [
-				"bzz-raw://4e80ca75e3f364f2a90e7dbbe368997055137d4216affadebc6f1378ba5ed52c",
-				"dweb:/ipfs/QmceCBf7aNrbgtTwWWdTzbnwCKLRuNhTgfiCXVVjFpjE8t"
+				"bzz-raw://17fd92d293672e7fa3fa8c7c5bc9e431322421d3e622fa8ec0f5f68029a51111",
+				"dweb:/ipfs/QmZPJDKLECF9gCwzrps2xpt5GEi2L2h7zBKZrQnsfVv1Pc"
 			]
 		}
 	},
