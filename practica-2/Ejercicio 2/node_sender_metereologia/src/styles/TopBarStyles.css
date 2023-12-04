@@ -1,0 +1,19 @@
+.top-bar {
+    position: fixed;
+    /* Fix the div */
+    top: 0;
+    /* Place it at the top */
+    width: 100%;
+    /* Full width */
+    background-color: black;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+    /* Optional: Set a z-index to control its stacking order */
+    /* Add other styles as needed */
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-around;
+}
